@@ -1,0 +1,3 @@
+#ignore unnecessary kicad files
+
+kicad_files-backups/
