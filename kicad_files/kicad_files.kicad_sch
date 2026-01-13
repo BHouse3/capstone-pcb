@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "67de3bec-6c8a-4e66-9cf7-9a8a92865209")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 53.34 127)
+		(size 31.75 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af888bc5-e77d-4cd8-a96c-c672ae10409a")
+		(property "Sheetname" "Washout Detection Unit"
+			(at 53.34 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "washout.kicad_sch"
+			(at 53.34 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 104.14)
+		(size 34.29 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afde5d3e-bcc8-4634-95a8-641512008d9b")
+		(property "Sheetname" "Dispensing Unit"
+			(at 186.69 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dispense.kicad_sch"
+			(at 186.69 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 120.65)
+		(size 33.02 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce830c06-a9b3-40f6-b6fa-b8cd2779ee31")
+		(property "Sheetname" "UI"
+			(at 118.11 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ui.kicad_sch"
+			(at 118.11 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 69.85)
+		(size 26.67 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf86a55d-acc8-4caf-ab66-6cf85c2a83fc")
+		(property "Sheetname" "Power Subsystem"
+			(at 52.07 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 52.07 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 69.85)
+		(size 34.29 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff56d200-a0c3-45b4-9685-fddfa8df3924")
+		(property "Sheetname" "MCU"
+			(at 116.84 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 116.84 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

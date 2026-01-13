@@ -1,0 +1,176 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "99772648-b795-4995-a043-27e62cfe5cb2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 170.18 53.34)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30853dec-b3a7-4736-8fff-7ca44480d990")
+		(property "Sheetname" "TPS63020 Buck-Boost Converter Module"
+			(at 170.18 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tps63020.kicad_sch"
+			(at 170.18 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/cf86a55d-acc8-4caf-ab66-6cf85c2a83fc"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 101.6)
+		(size 40.64 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39834714-186b-46f1-98c2-ac293f420f21")
+		(property "Sheetname" "U1V11F5 Boost Converter Module"
+			(at 173.99 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "u1v11f5.kicad_sch"
+			(at 173.99 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/cf86a55d-acc8-4caf-ab66-6cf85c2a83fc"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 107.95)
+		(size 39.37 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7ca2fa0-55bb-4e26-acaa-9bf184bb26ec")
+		(property "Sheetname" "LC709203F Fuel Gauge Module"
+			(at 97.79 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lc709203f.kicad_sch"
+			(at 97.79 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/cf86a55d-acc8-4caf-ab66-6cf85c2a83fc"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 53.34)
+		(size 48.26 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ccea73d7-5483-48a2-b570-3472bb0aec29")
+		(property "Sheetname" "TP4056 Module"
+			(at 92.71 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tp4056.kicad_sch"
+			(at 92.71 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/cf86a55d-acc8-4caf-ab66-6cf85c2a83fc"
+					(page "7")
+				)
+			)
+		)
+	)
+)
