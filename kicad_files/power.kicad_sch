@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "39834714-186b-46f1-98c2-ac293f420f21")
-		(property "Sheetname" "U1V11F5 Boost Converter Module"
+		(property "Sheetname" "TPS6190"
 			(at 173.99 100.8884 0)
 			(effects
 				(font
