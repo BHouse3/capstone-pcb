@@ -49,12 +49,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "High Efficiency Single Inductor Buck-Boost Converter with 4A Switch 14-VSON -40 to 85"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -159,16 +160,6 @@
 				)
 			)
 			(property "AVAILABILITY" "Good"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "High Efficiency Single Inductor Buck-Boost Converter with 4A Switch 14-VSON -40 to 85"
 				(at 0 0 0)
 				(effects
 					(font
