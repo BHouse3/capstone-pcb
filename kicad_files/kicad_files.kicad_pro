@@ -444,22 +444,6 @@
     [
       "afde5d3e-bcc8-4634-95a8-641512008d9b",
       "Dispensing Unit"
-    ],
-    [
-      "ccea73d7-5483-48a2-b570-3472bb0aec29",
-      "TP4056 Module"
-    ],
-    [
-      "b7ca2fa0-55bb-4e26-acaa-9bf184bb26ec",
-      "LC709203F Fuel Gauge Module"
-    ],
-    [
-      "30853dec-b3a7-4736-8fff-7ca44480d990",
-      "TPS63020 Buck-Boost Converter Module"
-    ],
-    [
-      "39834714-186b-46f1-98c2-ac293f420f21",
-      "TPS6190"
     ]
   ],
   "text_variables": {}
