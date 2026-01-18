@@ -523,170 +523,335 @@
 		)
 		(uuid "b9852727-e313-4984-9fa2-930da04eeae5")
 	)
-	(hierarchical_label "batteryLevTrigPin"
-		(shape bidirectional)
+	(global_label "batteryLevTrigPin"
+		(shape input)
 		(at 129.54 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0be13ba0-d157-4ddc-ab66-22634dd07641")
-	)
-	(hierarchical_label "washoutIn"
-		(shape bidirectional)
-		(at 168.91 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "1a5674c4-ef9f-4186-9876-4745c61481b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.3473 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "1daae24b-4eb3-4a2b-aaa3-758fc9126107")
 	)
-	(hierarchical_label "5_Volts"
-		(shape bidirectional)
-		(at 168.91 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "320dcf30-84aa-4bc1-bdb6-07d0173f650d")
-	)
-	(hierarchical_label "larvDumpMotor"
-		(shape bidirectional)
-		(at 168.91 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37c779c2-c728-429d-b30a-e66c2d6a18a2")
-	)
-	(hierarchical_label "Ground"
+	(global_label "gnd"
 		(shape bidirectional)
 		(at 129.54 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "473eec4d-4676-4672-a79f-bcc787f7017a")
-	)
-	(hierarchical_label "washoutSonarEcho"
-		(shape bidirectional)
-		(at 129.54 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "1e113b57-5456-4bd9-8004-71efcb7bc909")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.9965 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
-			(justify right)
 		)
-		(uuid "4e23dede-3efc-4c36-adb1-ccf6061236ce")
 	)
-	(hierarchical_label "washoutSonarTrig"
-		(shape bidirectional)
-		(at 129.54 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d33b407-afbd-403b-85de-726a017973bb")
-	)
-	(hierarchical_label "3.3_Volts"
-		(shape bidirectional)
-		(at 129.54 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7430736f-41e5-4055-b127-c0b327d12d91")
-	)
-	(hierarchical_label "Battery_Charge"
-		(shape bidirectional)
-		(at 168.91 86.36 0)
+	(global_label "larvLevelSonarEcho"
+		(shape output)
+		(at 168.91 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8d42109d-56ec-4fb7-a915-fa93bcc155ec")
-	)
-	(hierarchical_label "larvLevelSonarTrig"
-		(shape bidirectional)
-		(at 168.91 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "24d581d0-7e09-4c64-8e7e-27e1213b4dfe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.2796 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "9cec9e57-ae6d-4606-a1da-27dc5ad79180")
 	)
-	(hierarchical_label "batteryLevDataPin"
-		(shape bidirectional)
-		(at 129.54 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a10b97f0-065b-4e88-afa6-ba8dd7776f81")
-	)
-	(hierarchical_label "batteryLevClkPin"
-		(shape bidirectional)
-		(at 129.54 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c46d51e5-66ff-4f60-8a33-9552c618eb47")
-	)
-	(hierarchical_label "Ground"
+	(global_label "gnd"
 		(shape bidirectional)
 		(at 168.91 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c55abc42-b265-427e-ab58-d53478c52634")
+		(uuid "26d79aaf-27b4-4c09-8fc1-78ae76656025")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.4535 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "uiServo"
+	(global_label "batteryLevDataPin"
+		(shape input)
+		(at 129.54 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30c108ba-98c7-4025-b23e-b1c9af99eab4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.5612 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape output)
+		(at 129.54 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c4390f8-9f68-4fa6-a3a1-0464d09b68fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0472 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "larvLevelSonarTrig"
+		(shape input)
+		(at 168.91 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40657d69-b997-4edf-a505-2b632b4702cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2516 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "larvDumpMotor"
+		(shape output)
+		(at 168.91 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "536a88b4-5f0c-47c8-8b7c-f4c5dd541a72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.9858 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Bat+"
 		(shape bidirectional)
+		(at 168.91 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "551453f2-9b8a-44f0-bfbe-fceb2dc5b30c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.7236 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "washoutSonarTrig"
+		(shape input)
+		(at 129.54 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60b727ba-93b6-4105-a373-4ce1e4430dd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.9242 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "batteryLevClkPin"
+		(shape output)
+		(at 129.54 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88c0bfe7-abe4-4f6b-8997-4574dfd710ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8916 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "uiServo"
+		(shape output)
 		(at 168.91 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "de897e79-0e7f-48bc-9768-7eaaeaf9d00e")
+		(uuid "917a8f41-8f8a-4ac9-a99d-b0603a38ea5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.8499 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "larvLevelSonarEcho"
-		(shape bidirectional)
-		(at 168.91 110.49 0)
+	(global_label "5V"
+		(shape output)
+		(at 168.91 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fda682a0-acfb-430f-ba09-7a3e67b89e04")
+		(uuid "9ee7514c-da7e-4746-ab8e-d0e4b4d5d009")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.1933 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "washoutIn"
+		(shape input)
+		(at 168.91 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6dd8ab4-e1a3-41ca-b372-f5028fcae040")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.3293 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "washoutSonarEcho"
+		(shape output)
+		(at 129.54 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8dab026-6d0f-43bf-9db5-594f5ec64578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.8962 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "custom_symbols:rp2350_beetle_module")
