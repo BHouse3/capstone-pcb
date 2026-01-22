@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LMC555CMMX_NOPB")(type "KiCad")(uri "C:/Users/benja/Documents/capstone-pcb/LMC555CMMX_NOPB")(options "")(descr ""))
+  (lib (name "rp2350_footprint")(type "KiCad")(uri "C:/Users/benja/Documents/capstone-pcb/rp2350_footprint")(options "")(descr ""))
+  (lib (name "Fs8205a")(type "KiCad")(uri "C:/Users/benja/Documents/capstone-pcb/ul_FS8205A/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TPS61023")(type "KiCad")(uri "C:/Users/benja/Documents/capstone-pcb/ul_TPS61023DRLR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "LM311")(type "KiCad")(uri "C:/Users/benja/Documents/capstone-pcb/ul_LM311D/KiCADv6/footprints.pretty")(options "")(descr ""))
+)

@@ -4344,7 +4344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-6L_TCP"
+		(property "Footprint" "Fs8205a:SOT-23-6L_TCP"
 			(at 196.85 76.2 0)
 			(effects
 				(font
@@ -5145,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRL0006A"
+		(property "Footprint" "TPS61023:DRL0006A"
 			(at 134.62 115.57 0)
 			(effects
 				(font

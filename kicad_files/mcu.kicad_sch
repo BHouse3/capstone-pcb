@@ -715,7 +715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rp2350_footprint:DFR1188-DIP"
 			(at 137.16 82.55 0)
 			(effects
 				(font
