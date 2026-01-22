@@ -1447,6 +1447,56 @@
 				(justify left top)
 			)
 		)
+		(pin "5V" input
+			(at 82.55 125.73 0)
+			(uuid "da29aafe-3334-45c5-8663-6f0451240dec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "gnd" input
+			(at 82.55 129.54 0)
+			(uuid "4755f783-9e71-486b-9086-5339eb6b3ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Screw1" input
+			(at 48.26 153.67 270)
+			(uuid "74068b15-541d-46f3-92d7-062fb444c3f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Screw2" input
+			(at 52.07 153.67 270)
+			(uuid "555ee4f0-fb21-498c-add5-9525109cd106")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WashoutIn" output
+			(at 71.12 115.57 90)
+			(uuid "0aedf1d3-fc2f-49e1-aa38-83112670d91b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "kicad_files"
 				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209"
@@ -1487,6 +1537,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 151.13 106.68 180)
+			(uuid "7f41449d-511f-4ab8-96b0-457b6840d830")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "gnd" input
+			(at 151.13 110.49 180)
+			(uuid "e430d993-739f-483f-a237-c2b96dc18f08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU Motor 1" input
+			(at 166.37 90.17 90)
+			(uuid "e9bf1ad3-a6b5-4896-a2a2-251981004c51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU Motor 2" input
+			(at 172.72 90.17 90)
+			(uuid "50c8d153-a4d7-401b-b5a6-7c328063de7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor Out 1" output
+			(at 189.23 97.79 0)
+			(uuid "0ea4ba36-b712-4896-bdf0-6ab8fce2c717")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor Out 2" output
+			(at 189.23 110.49 0)
+			(uuid "072c716f-cd5a-4159-bf29-949e966d4831")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1531,6 +1641,46 @@
 				(justify left top)
 			)
 		)
+		(pin "5V" input
+			(at 97.79 125.73 180)
+			(uuid "57c55ae0-3e98-44dc-8405-a1fea3a1b04c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V PWM" output
+			(at 116.84 153.67 270)
+			(uuid "8cb4b42b-ae2a-476b-a3c8-acbf713632ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "gnd" input
+			(at 97.79 129.54 180)
+			(uuid "78fe378f-ef64-4e75-a69e-c7073a8d256d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU PWM" input
+			(at 116.84 115.57 90)
+			(uuid "ac000530-108a-4a64-8d58-be1741c4f1a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "kicad_files"
 				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209"
@@ -1573,6 +1723,86 @@
 				(justify left top)
 			)
 		)
+		(pin "3V3" input
+			(at 82.55 81.28 0)
+			(uuid "2ba32d5a-ca4c-452e-b866-5e579ba066dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" output
+			(at 82.55 85.09 0)
+			(uuid "8ff1a552-8785-43c1-9cc0-7ca044f4ae31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Bat+" input
+			(at 44.45 81.28 180)
+			(uuid "acb0c051-dbd9-4596-af7d-00fb3f0314a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Bat-" input
+			(at 44.45 83.82 180)
+			(uuid "ab67a84d-8336-4734-99fa-1fd8de345527")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batteryLevTrigPin" output
+			(at 82.55 71.12 0)
+			(uuid "94fd884e-d565-4836-a996-d723d8c750b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "gnd" output
+			(at 82.55 88.9 0)
+			(uuid "84b3cfca-7a51-4f66-91c2-db11bb9f1222")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "batteryLevClkPin" input
+			(at 82.55 73.66 0)
+			(uuid "b418cf45-b3ec-4c01-8a49-1ef6ee8def8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "batteryLevDataPin" bidirectional
+			(at 82.55 76.2 0)
+			(uuid "789ca59d-822e-4f48-9689-c2d19f56280c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "kicad_files"
 				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209"
@@ -1613,6 +1843,146 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 97.79 69.85 180)
+			(uuid "32a714d7-8004-4a80-890a-acdc6b7e500d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 97.79 73.66 180)
+			(uuid "51fd4002-f832-4f29-843a-a86830815061")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Bat+" bidirectional
+			(at 97.79 77.47 180)
+			(uuid "e1c5fae7-61a4-4064-a6ca-4f6faf8f2b1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batteryLevClkPin" output
+			(at 97.79 81.28 180)
+			(uuid "97c7367b-292b-4fb6-bd90-d44e478714f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batteryLevDataPin" bidirectional
+			(at 97.79 85.09 180)
+			(uuid "bd183140-ab22-42f4-8780-8d834479c701")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "batteryLevTrigPin" input
+			(at 97.79 88.9 180)
+			(uuid "d24307f6-d82a-4f7c-a2c9-cc894578e4be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "gnd" input
+			(at 97.79 92.71 180)
+			(uuid "e7902682-799f-4c0d-b0fa-abe95f7ce76c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "larvDumpMotor" output
+			(at 135.89 92.71 0)
+			(uuid "66f09ecd-2365-4adb-9cb3-eafd5cf9c66c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "larvLevelSonarEcho" output
+			(at 135.89 69.85 0)
+			(uuid "bfb88f4d-c3cb-428c-ba14-4a9d4a7058e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "larvLevelSonarTrig" input
+			(at 135.89 73.66 0)
+			(uuid "19f2d623-e612-4c0b-ab4a-a90a725c5cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uiServo" output
+			(at 135.89 77.47 0)
+			(uuid "4c72dd74-4bbc-4e19-bf05-11593631732f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "washoutIn" input
+			(at 135.89 81.28 0)
+			(uuid "857faece-81d9-4f6f-94b7-29d90be5b408")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "washoutSonarEcho" output
+			(at 135.89 85.09 0)
+			(uuid "885a11d4-d8e1-4967-a0e6-69b3a235180b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "washoutSonarTrig" input
+			(at 135.89 88.9 0)
+			(uuid "2fe9f472-b067-4f11-afc0-921997c0d9b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

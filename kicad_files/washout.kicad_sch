@@ -1908,115 +1908,60 @@
 		)
 		(uuid "fb744ce1-a5d8-4d94-896b-f707207839cd")
 	)
-	(global_label "gnd"
-		(shape input)
-		(at 26.67 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "124e358d-37fa-4cbc-826c-c727a2789680")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.2378 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_in"
-		(shape output)
-		(at 273.05 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa5c5486-10fc-44ca-89e4-c421bfa84267")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.8085 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Screw1"
-		(shape input)
-		(at 99.06 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b586f9a0-967f-44df-a137-6ca1210d0368")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.7581 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
+	(hierarchical_label "5V"
 		(shape input)
 		(at 25.4 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "bd1d766e-1ad2-4eac-9ceb-c6072eb3475b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.1167 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "450298c1-7cd1-4f0c-9974-dd5f868bf9f3")
 	)
-	(global_label "Screw2"
+	(hierarchical_label "gnd"
+		(shape input)
+		(at 26.67 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "670ca5fe-b31e-4f5b-aeac-4b35094c9d1c")
+	)
+	(hierarchical_label "Screw2"
 		(shape input)
 		(at 119.38 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "eec134d4-30d5-47f9-8602-110314a54fa8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.6819 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "bea087c0-688d-4f4d-823d-dda54636f226")
+	)
+	(hierarchical_label "WashoutIn"
+		(shape output)
+		(at 273.05 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "d688f376-b104-4686-9d67-68466b03cbcc")
+	)
+	(hierarchical_label "Screw1"
+		(shape input)
+		(at 99.06 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec227656-bbd3-4fe8-886d-303823456aef")
 	)
 	(symbol
 		(lib_id "LMC555CMMX_NOPB:LMC555CMMX_NOPB")

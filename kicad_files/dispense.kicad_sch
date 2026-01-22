@@ -5,6 +5,179 @@
 	(uuid "9c68a7a1-dae8-42fd-a95c-e946801e85fa")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4001"
 			(pin_numbers
 				(hide yes)
@@ -490,16 +663,16 @@
 		)
 	)
 	(junction
-		(at 163.83 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "731ad88d-6a51-4d91-b8f9-93b6aeac24a3")
-	)
-	(junction
 		(at 165.1 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e674709f-dca5-4f5d-ab41-a1ac4137cc54")
+		(uuid "b2aa6f3c-88e3-41a2-9dcb-7cb9c4459276")
+	)
+	(junction
+		(at 163.83 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dce47267-55d4-4b3f-b4c1-34a168967c3f")
 	)
 	(wire
 		(pts
@@ -513,23 +686,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 163.83 97.79)
+			(xy 163.83 92.71) (xy 163.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108e65e0-d90e-4e71-bc12-213863603501")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.22) (xy 179.07 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "16f650c1-63b9-47e0-8a97-9d52e485fa84")
-	)
-	(wire
-		(pts
-			(xy 173.99 46.99) (xy 165.1 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d3d93c1-6430-4f6a-b2cb-04a80f019ea1")
 	)
 	(wire
 		(pts
@@ -543,23 +716,53 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 90.17) (xy 163.83 90.17)
+			(xy 163.83 101.6) (xy 163.83 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69a2a4b7-08c4-44ce-a76d-a8dd01beb9b4")
+		(uuid "458314f4-8370-4023-b68e-134e8d38f8c0")
 	)
 	(wire
 		(pts
-			(xy 173.99 54.61) (xy 165.1 54.61)
+			(xy 165.1 46.99) (xy 173.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496edc15-e954-4fba-91ae-51a3e5347bfc")
+	)
+	(wire
+		(pts
+			(xy 165.1 64.77) (xy 177.8 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8922fa97-a1dc-4554-b3bd-66b9fe320695")
+	)
+	(wire
+		(pts
+			(xy 165.1 49.53) (xy 165.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dbf808-7d09-45da-89bc-9797f05c378f")
+	)
+	(wire
+		(pts
+			(xy 163.83 90.17) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4ad365-e1d7-4bb1-a964-1fd048493325")
 	)
 	(wire
 		(pts
@@ -601,160 +804,6 @@
 		)
 		(uuid "e8853338-203c-4484-93c7-7f6ddce38d4b")
 	)
-	(global_label "gnd"
-		(shape input)
-		(at 176.53 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0bdf0ea0-6552-4e3a-a8dd-a5b0668f96df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.9622 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 133.35 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ccab914-4e72-4e82-a58f-8f723cffdc6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0667 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "gnd"
-		(shape input)
-		(at 173.99 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "123bea2f-6487-44b5-b44e-827b944fc85e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.4222 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU Motor 2"
-		(shape input)
-		(at 146.05 101.6 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4c3bd9b8-5846-41bd-a19b-92c045436f0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 117.0431 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 133.35 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6084fa41-d24d-457c-8455-4041ca58a262")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0667 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Motor Out 2"
-		(shape input)
-		(at 176.53 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92c29f49-fece-4d9f-8332-96e0d77cfc41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.1264 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Motor Out 1"
-		(shape input)
-		(at 173.99 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bbda0e60-4988-48be-a60b-a7b39c536be7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.5864 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU Motor 1"
 		(shape input)
 		(at 146.05 58.42 270)
@@ -776,6 +825,94 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "MCU Motor 1"
+		(shape input)
+		(at 146.05 58.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ee3f150-87a9-456a-9606-06c187594d12")
+	)
+	(hierarchical_label "MCU Motor 2"
+		(shape input)
+		(at 146.05 101.6 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50f4da12-5fe3-456c-8f16-3a0bf7cf6e21")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 133.35 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b0313cd-5700-4533-8475-c8066707ba2a")
+	)
+	(hierarchical_label "gnd"
+		(shape input)
+		(at 179.07 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7be80724-55fd-4e62-871c-3bca4b920c01")
+	)
+	(hierarchical_label "Motor Out 2"
+		(shape output)
+		(at 176.53 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ceae1ad-6d80-40c8-94fd-01f8adda968a")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 133.35 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d345895-5eaa-49e4-bbcb-3b9520a40852")
+	)
+	(hierarchical_label "gnd"
+		(shape input)
+		(at 177.8 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6298018-11fd-4d35-b794-665e1a031868")
+	)
+	(hierarchical_label "Motor Out 1"
+		(shape output)
+		(at 173.99 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3120d81-b4e8-447c-9f90-46f044411864")
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
@@ -870,6 +1007,76 @@
 			(project ""
 				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/afde5d3e-bcc8-4634-95a8-641512008d9b"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7130be0f-f10f-4715-ab13-2f0bebf17a3c")
+		(property "Reference" "R22"
+			(at 166.37 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.37 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.846 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "235092f4-4b25-4f00-aeba-c47ab8709fcc")
+		)
+		(pin "1"
+			(uuid "4f08f3c9-55e8-4416-b56e-441269207134")
+		)
+		(instances
+			(project ""
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/afde5d3e-bcc8-4634-95a8-641512008d9b"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -975,7 +1182,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4001")
-		(at 165.1 50.8 90)
+		(at 165.1 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -984,25 +1191,25 @@
 		(fields_autoplaced yes)
 		(uuid "8b8af622-8770-4009-b76f-857ec9f13047")
 		(property "Reference" "D1"
-			(at 167.64 49.5299 90)
+			(at 167.64 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4001"
-			(at 167.64 52.0699 90)
+			(at 167.64 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 165.1 50.8 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1218,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 165.1 50.8 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1227,7 @@
 			)
 		)
 		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 165.1 50.8 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1236,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 165.1 50.8 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,7 +1245,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 50.8 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,8 +1269,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b660d614-5fee-43ea-8e7d-2a0f01de19dd")
+		(property "Reference" "R21"
+			(at 167.64 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 167.64 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.116 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6961b2e-e431-43ef-a195-913c9aac095e")
+		)
+		(pin "2"
+			(uuid "6122b775-5896-4282-be90-ae502cb4b378")
+		)
+		(instances
+			(project ""
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/afde5d3e-bcc8-4634-95a8-641512008d9b"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4001")
-		(at 163.83 93.98 90)
+		(at 163.83 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1072,25 +1349,25 @@
 		(fields_autoplaced yes)
 		(uuid "d2d48db0-dc93-46be-91f9-9f8571bcd1e9")
 		(property "Reference" "D2"
-			(at 166.37 92.7099 90)
+			(at 166.37 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4001"
-			(at 166.37 95.2499 90)
+			(at 166.37 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 163.83 93.98 0)
+			(at 163.83 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1376,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 163.83 93.98 0)
+			(at 163.83 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1385,7 @@
 			)
 		)
 		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 163.83 93.98 0)
+			(at 163.83 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1394,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 163.83 93.98 0)
+			(at 163.83 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1403,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 93.98 0)
+			(at 163.83 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
