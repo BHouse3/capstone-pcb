@@ -3,4 +3,5 @@
   (lib (name "custom_symbols")(type "KiCad")(uri "${KIPRJMOD}/custom_symbols.kicad_sym")(options "")(descr ""))
   (lib (name "FS8205A")(type "KiCad")(uri "C:/Users/benja/Documents/capstone-pcb/ul_FS8205A/KiCADv6/2026-01-15_21-16-25.kicad_sym")(options "")(descr ""))
   (lib (name "TPS61023")(type "KiCad")(uri "C:/Users/benja/Documents/capstone-pcb/ul_TPS61023DRLR/KiCADv6/2026-01-15_20-58-44.kicad_sym")(options "")(descr ""))
+  (lib (name "LMC555CMMX_NOPB")(type "KiCad")(uri "C:/Users/benja/Documents/capstone-pcb/LMC555CMMX_NOPB/LMC555CMMX_NOPB.kicad_sym")(options "")(descr ""))
 )

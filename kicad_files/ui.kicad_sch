@@ -933,93 +933,49 @@
 		)
 		(uuid "ffa7edd3-d480-4b6f-a0b4-c88d5f86beae")
 	)
-	(global_label "5V PWM"
+	(hierarchical_label "gnd"
 		(shape input)
-		(at 177.8 97.79 0)
-		(fields_autoplaced yes)
+		(at 179.07 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0b46a7b5-7143-4f28-8f7e-028e2f29b1a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2237 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "8c47bfd7-9818-4ee1-b892-fa527a5b6f24")
 	)
-	(global_label "5V"
-		(shape input)
-		(at 177.8 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87c2293d-f75c-4a84-a351-d13896991393")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.0833 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU PWM"
+	(hierarchical_label "MCU PWM"
 		(shape input)
 		(at 97.79 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "eae3b9fe-6098-4586-a3b1-613951343e1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.6125 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "93c951cd-1168-49ad-a631-1156093bd11b")
 	)
-	(global_label "gnd"
-		(shape input)
-		(at 179.07 116.84 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "5V PWM"
+		(shape output)
+		(at 177.8 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ff653bb1-ecc6-426f-8f5e-f2fee51066a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5022 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "ad53842e-273c-483c-98f1-153174835c04")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 177.8 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "b46e23e8-5562-4717-8772-b754052d975b")
 	)
 	(symbol
 		(lib_id "Device:R_US")

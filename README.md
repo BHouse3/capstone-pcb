@@ -14,4 +14,6 @@ All files and documentation for PCB integration.
 
 01/17/2026 - Power schematic starting point based on datasheet implementations. Will work to further verify. Changed MCU labels to global labels.
 
-1/20/2026 - UI schematic finished. External connector symbols added. Hierarchical label issue.
+01/20/2026 - UI schematic finished. External connector symbols added. Hierarchical label issue. Washout detection schematic finished. Motor schematic finished.
+
+01/22/2026 - Fixed critical polarity issue on flyback diodes. Hierarchical label assignment. Added missing I2C labels on power system
