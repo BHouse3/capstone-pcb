@@ -9,7 +9,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "."
+			(property "Reference" ".1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -19,14 +19,14 @@
 				)
 			)
 			(property "Value" "DFRobot RP2350 Module"
-				(at 12.192 1.524 0)
+				(at 12.065 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "rp2350_footprint:DFR1188-DIP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -103,10 +103,10 @@
 						)
 					)
 				)
-				(pin free line
+				(pin output line
 					(at -2.54 -11.43 0)
 					(length 2.54)
-					(name "NAN"
+					(name "LarvMotor2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -211,7 +211,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 26.67 -3.81 180)
 					(length 2.54)
 					(name "Battery_Charge"
@@ -239,7 +239,7 @@
 							)
 						)
 					)
-					(number "GND"
+					(number "GND2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -247,10 +247,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin free line
 					(at 26.67 -11.43 180)
 					(length 2.54)
-					(name "5_Volts"
+					(name "USB_5V"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -358,17 +358,143 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(wire
-		(pts
-			(xy 163.83 90.17) (xy 168.91 90.17)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "07fcfc03-4d63-4ecb-8fca-23a24586e19d")
 	)
 	(wire
 		(pts
@@ -405,14 +531,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 93.98) (xy 168.91 93.98)
+			(xy 129.54 93.98) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 7 11 1)
 		)
-		(uuid "38e39bb8-4b82-428c-b75d-a39837582ebf")
+		(uuid "2c706ff4-aeda-4634-8c40-860afc24cb1e")
 	)
 	(wire
 		(pts
@@ -460,7 +585,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 134.62 86.36)
+			(xy 120.65 86.36) (xy 134.62 86.36)
 		)
 		(stroke
 			(width 0)
@@ -479,6 +604,16 @@
 			(color 255 22 184 1)
 		)
 		(uuid "59bcbb39-ce36-4a82-9e52-07ebaf24a0c8")
+	)
+	(wire
+		(pts
+			(xy 163.83 90.17) (xy 173.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae14d54-035c-47c0-9497-f0ae0c8d2f51")
 	)
 	(wire
 		(pts
@@ -567,6 +702,17 @@
 		)
 		(uuid "26a493e0-dd83-4a18-a852-a2d174ee5169")
 	)
+	(hierarchical_label "LarvDumpMotor2"
+		(shape output)
+		(at 129.54 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a8c52b5-c791-4460-acc0-d622557cd8a8")
+	)
 	(hierarchical_label "Bat+"
 		(shape bidirectional)
 		(at 168.91 86.36 0)
@@ -577,28 +723,6 @@
 			(justify left)
 		)
 		(uuid "2d9294b9-a7ed-4301-bade-548ac84f19d8")
-	)
-	(hierarchical_label "gnd"
-		(shape input)
-		(at 168.91 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "32ee44de-4c92-4a5d-aab2-8a943c8dfe3d")
-	)
-	(hierarchical_label "gnd"
-		(shape input)
-		(at 129.54 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36f20891-012f-404d-b4c1-751a04fd085b")
 	)
 	(hierarchical_label "larvLevelSonarTrig"
 		(shape input)
@@ -666,17 +790,6 @@
 		)
 		(uuid "bc8fb44f-5e65-496f-95d9-bf04bf2426a4")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 168.91 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcfec4f5-59bf-406d-b192-fe146ede43b6")
-	)
 	(hierarchical_label "batteryLevDataPin"
 		(shape bidirectional)
 		(at 129.54 102.87 180)
@@ -687,6 +800,72 @@
 			(justify right)
 		)
 		(uuid "f654cd6f-26f9-4be9-b888-5648aada89d1")
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 173.99 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49aceac0-b1f7-422d-a55f-bd10b5200349")
+		(property "Reference" "#PWR09"
+			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c111cb7-9d2d-4f53-8038-851198b8d141")
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/ff56d200-a0c3-45b4-9685-fddfa8df3924"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "custom_symbols:rp2350_beetle_module")
@@ -769,7 +948,7 @@
 		(pin "BAT"
 			(uuid "ec47db93-f0af-4d54-b56d-a786d43cf78e")
 		)
-		(pin "GND"
+		(pin "GND2"
 			(uuid "2d4beef3-525e-460c-acc6-06dba4934e24")
 		)
 		(pin "Vcc"
@@ -794,6 +973,72 @@
 			(project ""
 				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/ff56d200-a0c3-45b4-9685-fddfa8df3924"
 					(reference ".1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 120.65 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db88aef0-72fe-49db-b1c3-d528bb1afbc4")
+		(property "Reference" "#PWR08"
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8617c528-f4b7-47be-b6ee-b8e69405b357")
+		)
+		(instances
+			(project "kicad_files"
+				(path "/67de3bec-6c8a-4e66-9cf7-9a8a92865209/ff56d200-a0c3-45b4-9685-fddfa8df3924"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

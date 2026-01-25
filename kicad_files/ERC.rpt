@@ -1,0 +1,30 @@
+ERC report (2026-01-25T13:31:10-0500, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'TPS61023DRLR' doesn't match copy in library 'TPS61023'
+    ; warning
+    @(5300 mils, 4550 mils): Symbol U3 [TPS61023DRLR]
+[lib_symbol_mismatch]: Symbol 'FS8205A' doesn't match copy in library 'FS8205A'
+    ; warning
+    @(7750 mils, 3000 mils): Symbol Q1 [FS8205A]
+[lib_symbol_mismatch]: Symbol 'DW01A' doesn't match copy in library 'Battery_Management'
+    ; warning
+    @(8450 mils, 1900 mils): Symbol U2 [DW01A]
+[lib_symbol_mismatch]: Symbol 'LM311' doesn't match copy in library 'Comparator'
+    ; warning
+    @(6900 mils, 4250 mils): Symbol U4 [LM311]
+[lib_symbol_mismatch]: Symbol 'rp2350_beetle_module' doesn't match copy in library 'custom_symbols'
+    ; warning
+    @(5400 mils, 3250 mils): Symbol .1 [rp2350_beetle_module]
+
+***** Sheet /Power Subsystem/
+
+***** Sheet /Washout Detection Unit/
+
+***** Sheet /MCU/
+
+***** Sheet /UI/
+
+***** Sheet /Dispensing Unit/
+
+ ** ERC messages: 5  Errors 0  Warnings 5
