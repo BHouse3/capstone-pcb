@@ -77,7 +77,7 @@
 							)
 						)
 					)
-					(number "GND"
+					(number "1"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -95,7 +95,7 @@
 							)
 						)
 					)
-					(number "3V3"
+					(number "2"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -113,7 +113,7 @@
 							)
 						)
 					)
-					(number "0"
+					(number "3"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -131,7 +131,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -149,7 +149,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -167,7 +167,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -185,7 +185,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -203,7 +203,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "8"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -221,7 +221,7 @@
 							)
 						)
 					)
-					(number "BAT"
+					(number "9"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -239,7 +239,7 @@
 							)
 						)
 					)
-					(number "GND2"
+					(number "10"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -257,7 +257,7 @@
 							)
 						)
 					)
-					(number "Vcc"
+					(number "11"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -275,7 +275,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "12"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -293,7 +293,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "13"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -311,7 +311,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "14"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -329,7 +329,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "15"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -921,16 +921,16 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "15"
 			(uuid "955b666b-809c-4bcc-b51f-d631018e5823")
 		)
 		(pin "4"
 			(uuid "8e53bc66-c757-4368-b541-c524bd6ab623")
 		)
-		(pin "3V3"
+		(pin "2"
 			(uuid "e08748a2-5095-42a0-a0de-ea1b337babe5")
 		)
-		(pin "0"
+		(pin "13"
 			(uuid "9472471b-ff1c-4532-b0e5-b382fd56f0a5")
 		)
 		(pin "9"
@@ -945,28 +945,28 @@
 		(pin "8"
 			(uuid "8df3c284-be41-4424-901f-2e0acfb2f44e")
 		)
-		(pin "BAT"
+		(pin "10"
 			(uuid "ec47db93-f0af-4d54-b56d-a786d43cf78e")
 		)
-		(pin "GND2"
+		(pin "3"
 			(uuid "2d4beef3-525e-460c-acc6-06dba4934e24")
 		)
-		(pin "Vcc"
+		(pin "11"
 			(uuid "b1e02d20-5a8b-4886-9deb-d72177898e4c")
 		)
-		(pin "27"
+		(pin "12"
 			(uuid "13b02ab2-f487-441d-9f1a-fcdb1de735b1")
 		)
 		(pin "16"
 			(uuid "f40c7181-905e-4007-8751-7045e71bdc04")
 		)
-		(pin "26"
+		(pin "14"
 			(uuid "ecceb793-edec-46b3-8c2a-7aeb6237acf8")
 		)
-		(pin "18"
+		(pin "6"
 			(uuid "c8bc3dd6-4af2-495d-8ea6-5a349ea01a6a")
 		)
-		(pin "19"
+		(pin "7"
 			(uuid "8f518a96-216d-464d-8533-3adb88cae723")
 		)
 		(instances

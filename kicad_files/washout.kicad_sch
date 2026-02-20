@@ -2201,7 +2201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMC555CMMX_NOPB:SOP65P490X110-8N"
+		(property "Footprint" "LMC555CMX_NOPB:D0008A_M"
 			(at 240.03 105.41 0)
 			(effects
 				(font
@@ -2330,7 +2330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 32.766 113.284 90)
 			(effects
 				(font
@@ -2400,7 +2400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 161.036 96.774 90)
 			(effects
 				(font
@@ -2536,7 +2536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 54.3052 128.27 0)
 			(effects
 				(font
@@ -2606,7 +2606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 161.036 122.174 90)
 			(effects
 				(font
@@ -2676,7 +2676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 199.136 117.094 90)
 			(effects
 				(font
@@ -2746,7 +2746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 199.0852 134.62 0)
 			(effects
 				(font
@@ -2987,7 +2987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 267.716 106.934 90)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 135.5852 119.38 0)
 			(effects
 				(font
@@ -3127,7 +3127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 32.7152 128.27 0)
 			(effects
 				(font
@@ -3195,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMC555CMMX_NOPB:SOP65P490X110-8N"
+		(property "Footprint" "LMC555CMX_NOPB:D0008A_M"
 			(at 76.2 107.95 0)
 			(effects
 				(font
@@ -3324,7 +3324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 218.1352 134.62 0)
 			(effects
 				(font
@@ -3394,7 +3394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 147.066 115.824 90)
 			(effects
 				(font
@@ -3464,7 +3464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 32.766 103.124 90)
 			(effects
 				(font
@@ -3534,7 +3534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 192.786 101.854 90)
 			(effects
 				(font
@@ -3604,7 +3604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 267.716 119.634 90)
 			(effects
 				(font
