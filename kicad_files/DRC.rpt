@@ -1,0 +1,116 @@
+** Drc report for kicad_files.kicad_pcb **
+** Created on 2026-03-03T11:40:34-0500 **
+
+** Found 33 DRC violations **
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(118.8750 mm, 134.7050 mm): Footprint U5
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(118.8750 mm, 134.7050 mm): Footprint U5
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(159.2750 mm, 131.6050 mm): Footprint U6
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(159.2750 mm, 131.6050 mm): Footprint U6
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 50.0000 mm): Rectangle on Edge.Cuts
+    @(101.3500 mm, 96.6400 mm): Arc of .1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 50.0000 mm): Rectangle on Edge.Cuts
+    @(101.3500 mm, 114.1400 mm): Arc of .1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 50.0000 mm): Rectangle on Edge.Cuts
+    @(246.0000 mm, 49.8500 mm): Reference field of H4
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 50.0000 mm): Rectangle on Edge.Cuts
+    @(104.0000 mm, 49.8500 mm): Reference field of H1
+[lib_footprint_mismatch]: Footprint 'JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; warning
+    @(243.4750 mm, 111.6500 mm): Footprint J7
+[lib_footprint_mismatch]: Footprint 'JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; warning
+    @(130.0000 mm, 144.6000 mm): Footprint J5
+[lib_footprint_mismatch]: Footprint 'JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; warning
+    @(103.1000 mm, 122.4000 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'JST_VH_B2P-VH_1x02_P3.96mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; warning
+    @(224.0000 mm, 55.5000 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; warning
+    @(244.5000 mm, 125.2000 mm): Footprint J3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.1000 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(111.3100 mm, 105.2400 mm): Reference field of .1
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(118.3929 mm, 99.1396 mm): Footprint text of .1 (18)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.8574 mm, 99.1396 mm): Footprint text of .1 (19)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(103.1800 mm, 100.1000 mm): Footprint text of .1 (BAT)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(120.9400 mm, 99.1396 mm): Footprint text of .1 (16)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(105.7171 mm, 113.2100 mm): Footprint text of .1 (3V3)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.8657 mm, 113.2100 mm): Footprint text of .1 (5)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(103.1800 mm, 113.2100 mm): Footprint text of .1 (GND)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(108.2510 mm, 100.2710 mm): Footprint text of .1 (VCC)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(105.7155 mm, 100.4371 mm): Footprint text of .1 (GND)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(118.4029 mm, 113.2100 mm): Footprint text of .1 (8
+)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(113.3219 mm, 99.1396 mm): Footprint text of .1 (26)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(110.7914 mm, 113.2100 mm): Footprint text of .1 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(110.7864 mm, 99.1396 mm): Footprint text of .1 (27
+)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(113.3286 mm, 113.2100 mm): Footprint text of .1 (4)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(120.9400 mm, 113.2100 mm): Footprint text of .1 (9)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(108.2543 mm, 113.2100 mm): Footprint text of .1 (0)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(216.2663 mm, 73.0982 mm): Footprint text of Q1 (*)
+    @(216.2663 mm, 73.0982 mm): Footprint text of Q1 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(139.9184 mm, 134.0982 mm): Footprint text of U4 (*)
+    @(139.9184 mm, 134.0982 mm): Footprint text of U4 (*)
+[copper_sliver]: Copper sliver (B.Cu)
+    Local override; warning
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,4 +1,4 @@
-26779715867705388
+26783285900202303
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70615,10 +70615,24 @@ LM311D
 0
 8
 8
-LMC555CMMX_NOPB
-SOP65P490X110-8N
+LMC555CMX_NOPB
+D0008A_L
 
+LMC555CMX/NOPB 
+0
+8
+8
+LMC555CMX_NOPB
+D0008A_M
 
+LMC555CMX/NOPB 
+0
+8
+8
+LMC555CMX_NOPB
+D0008A_N
+
+LMC555CMX/NOPB 
 0
 8
 8
